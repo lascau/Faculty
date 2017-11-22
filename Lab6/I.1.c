@@ -15,7 +15,9 @@ char *strcpy_pointer(char *dest, char *src){
 
     for (i = 0; *(src + i); i++)
         *(dest + i) = *(src + i);
-
+    
+    *(dest + i) = '\0';
+    
     return dest;
 }
 
