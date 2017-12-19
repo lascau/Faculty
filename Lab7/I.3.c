@@ -6,17 +6,6 @@ struct Nod{
     struct Nod *next;
 };
 
-/*
-void concatenate(struct Nod *list1, struct Nod *list2){
-    while (list1 != NULL && list2 != NULL)
-        if (list1 -> next == NULL){
-            list1 -> next = list2;
-            list1 = list2;
-        }
-        else
-            list1 = list1 -> next;
-}
-*/
 void concatenate(struct Nod *list1,struct Nod *list2)
 {
     if(list1 != NULL && list2 != NULL){
