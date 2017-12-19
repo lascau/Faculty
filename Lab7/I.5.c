@@ -15,7 +15,7 @@ int main()
     first = (struct Nod *) malloc(sizeof(struct Nod *));
     first = NULL;
 
-    for (i = 0; i < 24; i++){
+    for (i = 0; i < 25; i++){
         p = (struct Nod *) malloc(sizeof (struct Nod *));
         p -> info = rand() % 100;
         p -> next = NULL;
